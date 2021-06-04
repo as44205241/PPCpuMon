@@ -58,17 +58,5 @@ namespace PPCpuMon.Properties {
                 this["StopAnimationCpuLoad"] = value;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1000")]
-        public int CPUSamplingInterval {
-            get {
-                return ((int)(this["CPUSamplingInterval"]));
-            }
-            set {
-                this["CPUSamplingInterval"] = value;
-            }
-        }
     }
 }
